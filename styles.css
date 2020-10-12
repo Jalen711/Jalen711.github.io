@@ -14,9 +14,16 @@ body {
     width: 250px;
     height: 200px;
     padding: 15px;
+    border: 5px solid black;
+    margin-right: 20px;
 }
 
 h1 {
-    color: grey;
+    color: lightgrey;
     text-align:center;
+}
+
+a {
+    text-decoration:none;
+    color: #000000;
 }
