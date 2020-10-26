@@ -3,9 +3,14 @@ body {
     font-family: Arial, Arial, Helvetica, sans-serif
 }
 
-.assignment {
+.assignments {
     display:flex;
-    padding:20px;
+    flex-wrap:wrap;
+}
+
+.assignment {
+    width: 27%;
+    padding: 20px;
     margin: 20px;
     background: whitesmoke;
     border-radius: 50px;
@@ -19,6 +24,8 @@ body {
     border: 5px solid black;
     margin-right: 20px;
     border-radius: 50px;
+    display:block;
+    margin:auto;
 }
 
 h1 {
